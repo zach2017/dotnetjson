@@ -1,0 +1,5 @@
+ dotnet tool install -g mlnet-osx-x64
+  mkdir myMLApp
+  # Creates Model
+  mlnet classification --dataset "attacks.txt" --label-col 1 --has-header false --name SentimentModel  --train-time 60
+
